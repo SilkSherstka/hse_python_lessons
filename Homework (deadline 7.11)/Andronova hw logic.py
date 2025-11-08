@@ -183,5 +183,3 @@ have_basic_access = (any(model in available_models for model in available_models
 
 # Эта проверка уже реализована. Напишите остальные и примените их
 has_any_premium_model = any(model in available_models for model in premium_models)
-
-print(can_analyze)
