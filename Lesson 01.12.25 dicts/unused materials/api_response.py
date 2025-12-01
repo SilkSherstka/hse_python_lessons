@@ -1,0 +1,14 @@
+api_response = {
+    "text": "I really enjoyed the movie, the acting was amazing!",
+    "sentiment": {
+        "label": "positive",
+        "score": 0.95,
+        "confidence": "high"
+    },
+    "entities": [
+        {"entity": "movie", "type": "ENTERTAINMENT", "confidence": 0.89},
+        {"entity": "acting", "type": "SKILL", "confidence": 0.92}
+    ],
+    "language": "en",
+    "processed_in": 0.45
+}
