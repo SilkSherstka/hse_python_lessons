@@ -94,7 +94,7 @@ performance = [
 ]
 print(performance)
 
-# Задача 5 (Комплексная работа с данными)
+# Задача 5 (Комплексная работа с данными
 # Вы анализируете данные о продажах и хотите получить статистику по успешным менеджерам
 # Дан список словарей 
 # sales = [ {'name': 'Алексей', 'sales': 150, 'returns': 10}, 
@@ -115,5 +115,4 @@ top_managers = [
     if (manager['sales'] - manager['returns'] >= 150)
     and (manager['returns'] / manager['sales'] * 100 < 10)
 ]
-
-print(top_managers)
+print(top_managers) 
