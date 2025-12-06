@@ -28,8 +28,8 @@ while True:
     # 5. Фильтруем (list comp.) отрицательные и нецелые
     # 6. Обновляем numbers 
     numbers = [number for number in numbers if number > 0 and number % 2 == 0]
-# 8. В конце выводим numbers
-print(f"Список чисел: {numbers}")
+    # 8. В конце выводим numbers
+    print(f"Список чисел: {numbers}")
 
 
 # Задача 1 (Базовое преобразование)
